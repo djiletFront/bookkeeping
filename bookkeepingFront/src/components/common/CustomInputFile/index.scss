@@ -1,0 +1,14 @@
+.button-file {
+  height: 35px;
+  border-radius: 300px;
+  background: #85bc51cc;
+  &:hover {
+    background: rgba(10, 163, 133, 0.8);
+  }
+}
+
+.file-error-text {
+  font-size: 12px;
+  margin: 3px 14px 0;
+  color: #f44336;
+}

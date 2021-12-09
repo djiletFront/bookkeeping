@@ -1,0 +1,29 @@
+.statistics-block {
+  max-width: 300px;
+  width: 100%;
+  padding: 7.5px 15px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.statistics-block__description {
+  display: flex;
+  flex-direction: column;
+  row-gap: 10px;
+
+  .description__title {
+    font-size: 16.5px;
+    line-height: 1.5;
+    font-weight: 400;
+    color: rgb(107, 119, 140);
+  }
+
+  .description__sum {
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 1.5;
+    @media (max-width: 349.98px) {
+      font-size: 19px;
+    }
+  }
+}

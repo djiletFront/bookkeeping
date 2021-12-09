@@ -1,0 +1,40 @@
+.receipt-info__button {
+  width: 40px;
+  height: 40px;
+  background: #34aa48;
+  font-size: 15px;
+}
+
+.receipt-info {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  max-width: 400px;
+  width: 100%;
+  background: #ffffff;
+  padding: 5px 10px 3px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  max-height: 100vh;
+  overflow-y: scroll;
+  row-gap: 20px;
+}
+
+.receipt-info__button-close {
+  display: none;
+  @media (max-width: 500.98px) {
+    display: block;
+    align-self: flex-end;
+  }
+}
+
+.receipt-info__image {
+  max-height: 400px;
+  overflow-y: scroll;
+}
+
+.receipt-info__data {
+  font-size: 20px;
+}

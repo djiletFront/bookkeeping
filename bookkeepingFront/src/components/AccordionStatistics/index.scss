@@ -1,0 +1,40 @@
+.accordion-title {
+  margin-bottom: 20px;
+  @media (max-width: 329.98px) {
+    font-size: 20px;
+  }
+}
+
+.accordion-category {
+  border: 1px solid #dbdbdb;
+  //@media (max-width: 329.98px) {
+  //  font-size: 10px;
+  //}
+}
+
+.category__body {
+  display: flex;
+  @media (max-width: 349.98px) {
+    flex-direction: column;
+  }
+}
+
+.category__body__text {
+  display: flex;
+  max-width: 532px;
+  width: 100%;
+  justify-content: space-between;
+  @media (max-width: 349.98px) {
+    flex-direction: column;
+    row-gap: 10px;
+    text-align: center;
+  }
+}
+
+.category__name {
+  flex-grow: 1;
+}
+
+.accordion-sum {
+  font-size: 20px;
+}

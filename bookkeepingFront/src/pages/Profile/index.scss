@@ -1,0 +1,26 @@
+.profile {
+  padding-top: 10px;
+}
+
+.profile-card {
+  margin: 0 auto;
+  max-width: 1400px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  padding: 32px 24px;
+  background: #ffffff;
+
+  -webkit-box-shadow: 4px 4px 8px 2px rgba(34, 60, 80, 0.2);
+  -moz-box-shadow: 4px 4px 8px 2px rgba(34, 60, 80, 0.2);
+  box-shadow: 4px 4px 8px 2px rgba(34, 60, 80, 0.2);
+}
+
+.profile-card__submit {
+  max-width: 200px;
+  align-self: flex-end;
+  background: #36949d;
+  &:hover {
+    background: #046ea3;
+  }
+}

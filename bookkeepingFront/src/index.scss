@@ -1,0 +1,30 @@
+body,
+h1,
+h2,
+h3,
+h4,
+p,
+ul[class],
+ol[class],
+li,
+figure,
+figcaption,
+blockquote,
+dl,
+dd {
+  margin: 0;
+}
+
+#root {
+  background-color: #e9e9e9;
+  min-width: 100%;
+  min-height: 100vh;
+  overflow-x: hidden;
+}
+
+
+main {
+  flex-grow: 1;
+  padding: 15px;
+  min-width: 248px;
+}

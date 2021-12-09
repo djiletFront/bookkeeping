@@ -1,0 +1,52 @@
+.receipt {
+  display: flex;
+  justify-content: space-evenly;
+  column-gap: 30px;
+  max-width: 1440px;
+  margin: 0 auto;
+
+  @media (max-width: 1075.98px) {
+    row-gap: 20px;
+    align-items: center;
+    flex-direction: column;
+  }
+}
+
+.receipt-photo {
+  border-radius: 5px;
+  background: #ffffff;
+  padding: 15px;
+  align-self: flex-start;
+  max-width: 550px;
+
+  @media (max-width: 1075.98px) {
+    align-self: center;
+  }
+  @media (max-width: 425.98px) {
+    padding: 7.5px;
+  }
+}
+
+.receipt-form-data {
+  border-radius: 10px;
+  background: #ffffff;
+  padding: 25px;
+  max-width: 600px;
+  width: 100%;
+  align-self: baseline;
+
+  @media (max-width: 1075.98px) {
+    align-self: center;
+  }
+  @media (max-width: 425.98px) {
+    padding: 20px;
+  }
+
+  .receipt-form__input {
+    margin-bottom: 25px;
+  }
+
+  .input_text {
+    margin-bottom: 7.5px;
+  }
+}
